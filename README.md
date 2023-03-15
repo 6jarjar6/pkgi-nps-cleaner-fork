@@ -16,7 +16,7 @@ This should fix your issues when downloading through PKGi and NoPayStation
 ### How frequently is the repo updated?
 This repo should update at 12 PM UTC every day
 
-### What is NPS closes down?
+### What if NPS closes down?
 Use the Web Archive to grab the latest available files listed in the Python script and replace the corresponding URLs
 
 
