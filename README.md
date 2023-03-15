@@ -3,7 +3,7 @@
 
 This repo will fetch data from [NoPayStation](https://nopaystation.com) and will clean the db to be used by [PKGi](https://github.com/bucanero/pkgi-ps3) more easily
 
-Forked from [kombajno678](https://gitlab.com/kombajno678/psn-db)
+Forked from [kombajno678](https://gitlab.com/kombajno678/psn-db) from this [Reddit post](https://www.reddit.com/r/ps3piracy/comments/sr53fm/cleaner_nps_database_for_pkgi/)
 
 ## Tips
 ### Where do I put the files?
