@@ -1,4 +1,4 @@
-# NoPayStation PKGi DB Cleaned
+# NoPayStation PKGi DB Cleaned PS3
 ![Tux, the Linux mascot](https://i.imgur.com/gLanGeV.jpg)
 
 This repo will fetch data from [NoPayStation](https://nopaystation.com) and will clean the db to be used by [PKGi](https://github.com/bucanero/pkgi-ps3) more easily
