@@ -1,0 +1,12 @@
+url_games https://gitlab.com/kombajno678/psn-db/-/raw/main/pkgi_games.txt
+url_dlcs https://gitlab.com/kombajno678/psn-db/-/raw/main/pkgi_dlcs.txt
+url_themes https://gitlab.com/kombajno678/psn-db/-/raw/main/pkgi_themes.txt
+url_avatars https://gitlab.com/kombajno678/psn-db/-/raw/main/pkgi_avatars.txt
+url_demos https://gitlab.com/kombajno678/psn-db/-/raw/main/pkgi_demos.txt
+language en
+content 1
+sort name
+order desc
+filter ASA,JPN
+dl_mode_background 1
+no_music 1
