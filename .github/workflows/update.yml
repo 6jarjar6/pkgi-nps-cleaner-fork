@@ -28,7 +28,14 @@ jobs:
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
         run: python generate_db_files.py
           
+      - name: Check if there are any changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+          
+          
       - name: commit files
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -36,8 +43,8 @@ jobs:
           git commit -m "update data" -a
           rm -rf .git
           
-          
       - name: push changes
+        if: steps.verify_diff.outputs.changed == 'true'
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
