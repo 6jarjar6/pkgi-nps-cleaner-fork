@@ -2,7 +2,7 @@ name: update
 
 on:
   schedule:
-    - cron: '0 12 * * *' # runs at 12:00 UTC everyday
+    - cron: '*/30 * * * *' # runs every 30 minutes for now
 
 jobs:
   build:
