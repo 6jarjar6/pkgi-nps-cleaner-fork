@@ -10,9 +10,9 @@ PSP_GAMES = "http://nopaystation.com/tsv/PSP_GAMES.tsv"
 PSM_GAMES = "http://nopaystation.com/tsv/PSM_GAMES.tsv"
 PSX_GAMES = "http://nopaystation.com/tsv/PSX_GAMES.tsv"
 
-PS1_PREFIX = "[PS1]"
-PS2_PREFIX = "[PS2]"
-PS3_PREFIX = "[PS3]"
+PS1_PREFIX = "[PS1] "
+PS2_PREFIX = "[PS2] "
+PS3_PREFIX = "[PS3] "
 
 download = [
     (PS3_GAMES, 'pkgi_games.txt', PS3_PREFIX),
